@@ -1,0 +1,104 @@
+>>> a = [int(x) for x in input().split()]
+2 3 4 5 6
+>>> a
+[2, 3, 4, 5, 6]
+
+
+
+>>> kk = [1,2,3,4,5,"hello","everyone"]
+>>> kk.append("google\"")
+>>> kk.append("apple\"")
+>>> kk.append("facebook\"")
+>>> kk.append("mirosoft\"")
+>>> kk.append("tesla\"")
+>>> kk
+[1, 2, 3, 4, 5, 'hello', 'everyone', 'google"', 'apple"', 'facebook"', 'mirosoft"', 'tesla"']
+
+
+
+
+>>> kk.append(2)
+>>> kk.append(4)
+>>> kk.append(8)
+>>> kk.append(1)
+>>> kk
+[1, 2, 3, 4, 5, 'hello', 'everyone', 'google"', 'apple"', 'facebook"', 'mirosoft"', 'tesla"', 2, 4, 8, 1]
+>>> kk.count(2)
+2
+>>> kk.count(1)
+2
+>>> kk.count(3)
+1
+>>> kk.count(4)
+2
+>>> kk.count(5)
+1
+>>> kk.count("hello")
+1
+>>> kk.count("everyone")
+1
+>>> kk.count('google"')
+1
+>>> kk.count('apple"')
+1
+>>> kk.count('facebook"')
+1
+>>> kk.count('tesla"')
+1
+
+
+
+
+
+>>> list_two = [5,6,3,2,1,2,3,5,6,22,55,3345,1000]
+>>> list_two
+[5, 6, 3, 2, 1, 2, 3, 5, 6, 22, 55, 3345, 1000]
+>>> list_two.sort()
+>>> list_two
+[1, 2, 2, 3, 3, 5, 5, 6, 6, 22, 55, 1000, 3345]
+
+
+
+>>> A = [1,2,3,4,5,6]
+>>> B = [4,5,10,11,12]
+>>> C = A + B
+>>> C
+[1, 2, 3, 4, 5, 6, 4, 5, 10, 11, 12]
+>>> C.sort()
+>>> C
+[1, 2, 3, 4, 4, 5, 5, 6, 10, 11, 12]
+
+
+
+
+>>> C.append(45)
+>>> C
+[1, 2, 3, 4, 4, 5, 5, 6, 10, 11, 12, 45]
+>>> C.pop()
+45
+>>> C
+[1, 2, 3, 4, 4, 5, 5, 6, 10, 11, 12]
+
+
+
+>>>queue = deque(["Eric", "John", "Michael"])
+>>> queue.append("Graham")
+>>> queue
+deque(['Eric', 'John', 'Michael', 'Graham'])
+>>> queue.popleft()
+'Eric'
+>>> queue.popleft()
+'John'
+
+
+>>>numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) # Declaring the tuple
+>>>count_odd = 0
+>>>count_even = 0
+>>>for x in numbers:
+...        if not x % 2:
+...    	     count_even+=1
+...        else:
+...    	     count_odd+=1
+...
+>>>print("Number of even numbers :",count_even)
+>>>print("Number of odd numbers :",count_odd)
