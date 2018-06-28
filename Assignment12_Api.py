@@ -18,12 +18,12 @@
 import tweepy
 '''Impotring tweepy module'''
 
-consumer_key = "zGCfCHSiwVIy2f8jbgKRmED3x"
-consumer_secret = "YuPNgHssFaTBJGzCFKxKcEeFMWa4tBtCKwChWiFnyQnwdpuE2O"
+consumer_key = "************"
+consumer_secret = "**************************"
 '''Giving Consumer key and consummer Secret'''
 
-access_token = "454631640-RYLJlsr4x6Lb8qcjQzPARMdsIuUK7RamZp0Mr5FW"
-access_token_secret = "NPgn54srS1p2OWgiS7sFzvvSEgFUnD2Z4BCIZcNnUMbI9"
+access_token = "*****************************"
+access_token_secret = "**********************************************************88"
 '''Giving Access Token and Access tokwn secret'''
 
 '''Authorization to consumer key and consumer secret'''
